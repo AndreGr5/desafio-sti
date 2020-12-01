@@ -1,8 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include <sstream>
 #include <vector>
-#include <utility>
 #include <string>
 #include <map>
 #include <iterator>
@@ -92,4 +90,6 @@ int main(){
     for(itr = notacurso.begin();itr!=notacurso.end(); ++itr){
         cout << itr->second.cod <<" - "<< itr->second.nota/itr->second.chtotal << endl;
     }
+
+    system("pause");
 }
